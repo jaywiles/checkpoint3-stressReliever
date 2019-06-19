@@ -3,11 +3,16 @@ body {
     text-align: center;
     background-color: white;
     margin: 0;
+    background-image: url("../images/coffeehouse.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 header {
     height: 100px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    background-color: rgba(30, 149, 179, 0.575);
+    color: white;
 }
 
 .container {
@@ -18,7 +23,7 @@ header {
 
 #mug {
     position: fixed;
-    bottom: 90px;
+    bottom: 115px;
     left: 34%;
     height: 200px;
     /* margin-bottom: calc(10%); */
@@ -28,14 +33,20 @@ header {
 
 #pot {
     position: fixed;
-    bottom: 70px;
+    bottom: 95px;
     right: 25%;
     height: 400px;
     /* margin-bottom: calc(10%); */
 }
 
 #table {
-    height: 50px;
+    position: fixed;
+    bottom: -10px;
+    margin-bottom: 0px;
+    margin-left: calc(50% - 470px);
+    z-index: -2;
+
+    /* height: 50px;
     width: 900px;
     position: fixed;
     bottom: 0px;
@@ -43,5 +54,5 @@ header {
     margin-left: calc(50% - 470px);
     border-top: 40px solid brown;
     border-left: 20px solid brown;
-    border-right: 20px solid brown;
+    border-right: 20px solid brown; */
 }
