@@ -36,11 +36,7 @@ $(document).ready(function() {
                 animateTo:-45,
                 })
             // below makes sound effect play
-            $('audio#pour-sound')[0].play()
-            // $(this).delay().rotate({
-            //     angle: 0,
-            //     animateTo:0,
-            // })
+            $('audio#pour-sound')[0].play();
             }
         }
     })
@@ -49,10 +45,8 @@ $(document).ready(function() {
     //     $(this).reload();
     // });
 
-
-
-// location.reload(forceGet);
-
-// audio sound effect below - automatically plays when page loads currently
-// $('audio#pour-sound')[0].play()
+            // $(this).delay().rotate({
+            //     angle: 0,
+            //     animateTo:0,
+            // })
 
